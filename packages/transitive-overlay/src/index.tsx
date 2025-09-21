@@ -98,7 +98,8 @@ const commonTextLayoutParams: SymbolLayerSpecification["layout"] = {
   "text-field": ["get", "name"],
   "text-justify": "auto",
   "text-radial-offset": 1,
-  "text-size": 15
+  "text-size": 15,
+  "text-font": ["Noto Sans Regular"]
 };
 
 /**
@@ -124,7 +125,7 @@ const defaultTextLayoutParams: SymbolLayerSpecification["layout"] = {
 const defaultBoldTextLayoutParams: SymbolLayerSpecification["layout"] = {
   ...commonTextLayoutParams,
   // FIXME: find a better way to set a bold font
-  "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
+  "text-font": ["Noto Sans Bold"],
   "text-overlap": "never"
 };
 

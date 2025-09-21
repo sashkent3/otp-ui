@@ -76,7 +76,7 @@ export function getRouteLayerLayout(
     "symbol-placement": "line-center",
     "text-allow-overlap": true,
     "text-field": ["get", textField],
-    "text-font": ["Open Sans Bold", "Arial Unicode MS Bold"],
+    "text-font": ["Noto Sans Bold"],
     "text-ignore-placement": true,
     "text-justify": "left",
     "text-line-height": 0.5,
